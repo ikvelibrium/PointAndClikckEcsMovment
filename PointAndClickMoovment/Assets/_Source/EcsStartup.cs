@@ -13,6 +13,7 @@ namespace Client {
             _systems
                 .ConvertScene()
                 .Add(new EcsMooverSystem())
+                .Add(new EcsSpawnSystem())
                 // .Add (new TestSystem2 ())
 
                 // register additional worlds here, for example:

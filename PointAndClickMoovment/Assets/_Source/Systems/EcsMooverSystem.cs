@@ -76,7 +76,7 @@ namespace Client
                     
             } else if (Vector3.Distance(_soldierPosition.position, _target) < 0.5f)
             {
-                _IsGoing = false;
+                //_IsGoing = false;
             }
         }
     }
